@@ -5,21 +5,21 @@ body {
 }
 
 h1 {
-  margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto; 
+  font-family: 'Share Tech', sans-serif;
   font-size: 5.625rem;
   color: #21257c;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Serif', serif;
   font-size: 2.5rem;
   color: #21257c;
   font-weight: normal;
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Serif', serif;
   color: #2b3894;
 }
 
@@ -57,7 +57,21 @@ a {
 
 .top-container {
   background-color: #e6f3ff;
-  padding-top: 100px;
+  padding-top: 35px;
+}
+
+.portfolio-container {
+  background-color: #e6f3ff;
+  padding: 50px;
+}
+
+#portfolio {
+  font-family: 'Share Tech', sans-serif;
+  color: #21257c;
+}
+
+.inside-portfolio {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .bottom-container {
