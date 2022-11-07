@@ -140,3 +140,11 @@ a {
 .bio {
   margin: 20px 200px;
 }
+
+table, th, td {
+  border: 1px solid;
+  color: #21257c;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
