@@ -1,80 +1,92 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
-  <title>Kesley Raimundo</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="favicon/favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <div class="top-container">
-    <h1>Hi, I'm Kesley.</h1>
-    <h2><em>M.Sc. - Physics</em></h2>
-    <h2>and <span class="datascience">Data Science</span> student.</h2>
-    <img class='mainimg' src="https://cdn-icons-png.flaticon.com/512/7494/7494364.png" alt="">
-  </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img class="profile-picture" src="images/kesley.png" alt="">
-      <h2>About me</h2>
-      <p class="bio">
-        After several years of working on the frontier of theoretical physics, I
-        decided to change my subject of study to data science. As a theoretical
-        physicist, I have a well-established knowledge of the mathematical
-        framework used to solve data science problems and a unique intuition for
-        solving general problems that one must develop when researching the frontier
-        of human knowledge.
-      </p>
-      <p class="bio">
-        At the moment, I'm developing new skills in programming at HUB-IA FIEP
-        Londrina, such as Python and its pertinent libraries for data science,
-        and acquiring professional experience by working on real projects for
-        industries.
-      </p>
-    </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills</h2>
-      <div class="skill-row">
-        <img class="icon1" src="https://cdn-icons-png.flaticon.com/512/5205/5205057.png" alt="">
-        <h3>Academic</h3>
-        <ul>
-          <li><a href="https://doi.org/10.48550/arXiv.2208.04864">
-              Topological Superconductor from the Quantum Hall Phase: Effective Field
-              Theory Description</a></li>
-          <li><a href="https://doi.org/10.1103/PhysRevA.103.022201">Classical-quantum
-              correspondence for two-level pseudo-Hermitian systems</a></li>
-          <li><a href="http://lattes.cnpq.br/4494460678338110">Lattes</a></li>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kesley Raimundo - Data Science</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Open+Sans&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="index.html" class="logo">Kesley Raimundo</a>
+        <ul class="nav-menu">
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
+      </nav>
+      <div class="hero-text">
+        <h1>Hi, I'm Kesley.</h1>
+        <h2>Data Scientist and M.Sc. in Theoretical Physics</h2>
       </div>
-      <div class="skill-row">
-        <img class="icon2" src="https://cdn-icons-png.flaticon.com/512/1329/1329016.png" alt="">
-        <h3>Programming certifications</h3>
-        <ul>
-          <li>Python - <a href="ude.my/UC-027cd7ae-a3f5-423e-8ae9-b570299c263f/">100 Days of Code: The Complete Python Pro Bootcamp for 2022</a></li>
-          <li>Data Science - <a href="ude.my/UC-0af99617-6ea1-41bb-9ac0-a8651efbce25">Complete 2022 Data Science & Machine Learning Bootcamp</a></li>
-          <li>Data Science - <a href="ude.my/UC-bfab5d26-18e6-434b-8439-b3ab85fe8bd0">Machine Learning A-Z™: Hands-On Python & R In Data Science</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class=portfolio-container>
-      <h2><a class="portfolio" href="portfolio.html">Portfolio</a></h1>
-    </div>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <a class="btn" href="mailto:keseyraimundo@gmail.com">CONTACT ME</a>
-    </div>
-  </div>
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/kesleyraimundo/">LinkedIn</a>
-    <a class="footer-link" href="https://github.com/Kefsner">GitHub</a>
-    <p class="c">© Kesley Raimundo.</p>
-  </div>
-</body>
+    </header>
 
+    <main>
+      <section class="about-section">
+        <div class="profile-picture">
+          <img src="images/kesley.png" alt="Profile Picture" />
+        </div>
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            I'm a Data Science student with a M.Sc. in Theoretical Physics. I'm
+            passionate about using data to solve real-world problems and
+            developing new skills in programming, machine learning and
+            artificial intelligence.
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+      </section>
+
+      <section class="skills-section">
+        <h2>Skills</h2>
+        <div class="skills-list">
+          <div class="skill">
+            <h3>Data Science</h3>
+            <ul>
+              <li>Python</li>
+              <li>Machine Learning</li>
+              <li>Data Visualization</li>
+              <li>Deep Learning</li>
+              <li>Computer Vision</li>
+            </ul>
+          </div>
+          <div class="skill">
+            <h3>Web Development</h3>
+            <ul>
+              <li>HTML/CSS/JS</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>MongoDB</li>
+            </ul>
+          </div>
+          <div class="skill">
+            <h3>Theoretical Physics</h3>
+            <ul>
+              <li>Quantum Mechanics</li>
+              <li>Statistical Mechanics</li>
+              <li>Classical Mechanics</li>
+              <li>General Relativity</li>
+              <li>Particle Physics</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="bottom-container">
+        <a href="#" class="footer-link">Privacy Policy</a>
+        <span class="c">&copy; 2023 Kesley Raimundo</span>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
 </html>

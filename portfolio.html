@@ -1,29 +1,77 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8"> 
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio | Kesley Raimundo</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon/favicon.ico" />
   </head>
   <body>
-    <h1>Basic projects in the learning path</h1>
-    <table>
-      <tr>
-        <th>Data Science</th>
-        <th>Web Development</th>
-      </tr>
-      <tr>
-        <td></td>
-        <td><a href="projects/dice-game/index.html">Dice Game</a></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td><a href="projects/drum-kit/index.html">Drum Kit</a></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td><a href="projects/simon-game/index.html">Simon Game</a></td>
-      </tr>
-    </table>
+    <header class="header">
+      <nav class="navbar">
+        <a href="index.html" class="logo">Kesley Raimundo</a>
+        <ul class="nav-menu">
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hero-text">
+        <h1>Portfolio</h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="portfolio">
+        <h2>Projects</h2>
+        <div class="projects-container">
+          <div class="project-card">
+            <img src="images/project-1.jpg" alt="Project 1" />
+            <div class="project-card-info">
+              <h3>Project 1</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                convallis rhoncus massa, eu venenatis arcu lacinia quis.
+              </p>
+              <a href="#">View project</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="images/project-2.jpg" alt="Project 2" />
+            <div class="project-card-info">
+              <h3>Project 2</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                convallis rhoncus massa, eu venenatis arcu lacinia quis.
+              </p>
+              <a href="#">View project</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="images/project-3.jpg" alt="Project 3" />
+            <div class="project-card-info">
+              <h3>Project 3</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                convallis rhoncus massa, eu venenatis arcu lacinia quis.
+              </p>
+              <a href="#">View project</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="bottom-container">
+        <a href="#" class="footer-link">Privacy Policy</a>
+        <span class="c">&copy; 2023 Kesley Raimundo</span>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>
