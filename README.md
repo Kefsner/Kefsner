@@ -19,5 +19,5 @@ Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/kesleyrai
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&theme=dark&show_icons=true" alt="Anurag's GitHub stats" style="text-align: center;">
+  <img src="https://github-readme-stats.vercel.app/api?username=kefsner&theme=dark&show_icons=true" alt="Anurag's GitHub stats" style="text-align: center;">
 </p>
