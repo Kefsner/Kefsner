@@ -13,12 +13,3 @@ Check out my portfolio to see some of my past work and current projects.
 ## Contact
 
 Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/kesleyraimundo/) or [GitHub](https://github.com/Kefsner). You can also email me at kesleyraimundo@gmail.com.
-
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
-<!-- <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kefsner&theme=dark&show_icons=true" alt="Anurag's GitHub stats" style="text-align: center;">
-</p>
- -->
