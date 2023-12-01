@@ -4,48 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Kesley Raimundo - Data Science</title>
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Open+Sans&family=Sacramento&display=swap"
-      rel="stylesheet"
-    />
+    <title>Kesley Raimundo</title>
+    <link rel="stylesheet" href="static/css/styles.css" />
   </head>
   <body>
     <header class="header">
       <nav class="navbar">
         <a href="index.html" class="logo">Kesley Raimundo</a>
         <ul class="nav-menu">
-          <li><a href="about.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <div class="hero-text">
-        <h1>Hi, I'm Kesley.</h1>
-        <h2>Data Scientist and M.Sc. in Theoretical Physics</h2>
-      </div>
     </header>
 
     <main>
-      <section class="about-section">
+      <section class="about-section" id="about">
         <div class="profile-picture">
-          <img src="images/kesley.png" alt="Profile Picture" />
+          <img src="static/images/kesley.png" alt="Profile Picture"/>
         </div>
-        <div class="about-text">
-          <h2>About Me</h2>
+        <div class="about-heading">
+          <p onclick="toggleAboutText()">About</p>
+        </div>
+        <div class="about-text about-text-inactive">
           <p>
-            I'm a Data Science student with a M.Sc. in Theoretical Physics. I'm
-            passionate about using data to solve real-world problems and
-            developing new skills in programming, machine learning and
-            artificial intelligence.
+            👋 <strong>Hello!</strong> I'm Kesley, a physicist turned programmer with a unique story of transition from the mysteries of the universe to the intricacies of code. My academic journey in physics, which included a bachelor's and master's degree from Universidade Estadual de Londrina (UEL), and a venture into doctoral studies at Universidade de São Paulo (USP), was a profound exploration of the natural world. However, due to health issues during the pandemic, I pivoted my path towards the tech world.
+          </p> 
+          <p>
+            🌌 <strong>From Quarks to Code:</strong> This shift led me to complete a residency in Data Science and Artificial Intelligence at SENAI's Artificial Intelligence HUB. My work here was not only a deep dive into AI but also a launchpad that led SENAI to recognize my skills and bring me on board as a full-stack developer. Today, I skillfully navigate technologies like Django, React, and PostgreSQL, crafting web solutions with a keen eye for detail and efficiency.
           </p>
-          <a href="#" class="btn">Learn More</a>
+          <p>
+            🎮 <strong>A New Chapter in Game Development:</strong> Recently, I've embarked on a thrilling journey into game development. As a hobbyist game developer, I'm delving into C++, a language that's opening up new vistas in my understanding of programming. This exploration is more than just learning a new language; it's about uncovering new ways to bring stories and worlds to life through code.
+          </p>
+          <p>
+            🔄 <strong>A Resilient Explorer:</strong> The challenges I faced during the pandemic led to significant personal growth and a reevaluation of my goals. Embracing this period of change, I've grown to become more resilient, focused, and committed to lifelong learning.
+          </p>
+          <p>
+            🚀 <strong>Professional and Curious:</strong> As a professional, I balance my work in full-stack development with my passion for exploring new areas like game development. I'm continually driven by my curiosity to understand the deeper aspects of technology and programming.
+          </p>
+          <!-- Hide Button -->
+          <div class="hide-button">
+            <p onclick="toggleAboutText()">Hide</p>
+          </div>
+
         </div>
       </section>
 
-      <section class="skills-section">
+      <section class="skills-section" id="skills">
         <h2>Skills</h2>
         <div class="skills-list">
           <div class="skill">
@@ -53,36 +59,58 @@
             <ul>
               <li>Python</li>
               <li>Machine Learning</li>
-              <li>Data Visualization</li>
               <li>Deep Learning</li>
-              <li>Computer Vision</li>
             </ul>
           </div>
           <div class="skill">
             <h3>Web Development</h3>
             <ul>
-              <li>HTML/CSS/JS</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Django</li>
             </ul>
           </div>
           <div class="skill">
-            <h3>Theoretical Physics</h3>
+            <h3>Game Development</h3>
             <ul>
-              <li>Quantum Mechanics</li>
-              <li>Statistical Mechanics</li>
-              <li>Classical Mechanics</li>
-              <li>General Relativity</li>
-              <li>Particle Physics</li>
+              <li>C++</li>
+              <li>OpenGL</li>
             </ul>
           </div>
         </div>
       </section>
+
+      <section class="contact-section" id="contact">
+        <div class="contact-container">
+          <div class="contact">
+            <a href="mailto:kesleyraimundo@gmail.com" target="_blank">
+              <img src="static/images/envelope-solid.svg" alt="Email"/>
+            </a>
+          </div>
+          <div class="contact">
+            <a href="https://www.linkedin.com/in/kesleyraimundo/" target="_blank">
+              <img src="static/images/linkedin.svg" alt="LinkedIn" />
+            </a>
+          </div>
+          <div class="contact">
+            <a href="https://github.com/Kefsner" target="_blank">
+              <img src="static/images/square-github.svg" alt="GitHub" />
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
+  
     <footer>
-      <div class="bottom-container">
-        <a href="#" class="footer-link">Privacy Policy</a>
-        <span class="c">&copy; 2023 Kesley Raimundo</span>
-      </div>
+        <span class="c">&copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          Kesley Raimundo
+        </span>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="static/js/script.js"></script>
   </body>
 </html>
