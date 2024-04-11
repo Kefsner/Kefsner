@@ -1,15 +1,21 @@
 # Kesley Raimundo
 
-Welcome to my personal website! This site serves as a portfolio of my work and a hub for my online presence.
+Welcome to my GitHub profile. I'm currently navigating the intersection of software development and quantum computing, focusing on practical applications within the AI-driven industrial solutions space.
 
-## About Me
+## Current Work and Interests:
+- Implementing Django applications for AI-driven industrial solutions at SENAI-PR as an Analista PDI.
+- Pursuing advanced studies with a master's in Computer Science and a PhD in Quantum Computing.
+- Developing a financial management system leveraging React and TypeScript.
+- Diving into game and graphics development through my work on a custom game engine in C++.
 
-I am a data scientist with a background in physics. I am currently a resident in the artificial intelligence program at the SENAI AI HUB. I possess a strong mathematical toolkit and critical thinking skills that I leverage for analyzing and solving problems in data science and its subfields. I have a keen interest in programming and I am constantly learning new technologies and tools to further develop my skills.
+## Preferred Technologies:
+- **Frontend**: React, TypeScript
+- **Backend**: Django
+- **AI/ML**: Python libraries like TensorFlow and scikit-learn
+- **Quantum Computing**: Exploring through academic research
+- **DevOps**: Docker
 
-## Projects
+## LinkedIn:
+- [kesleyraimundo](https://www.linkedin.com/in/kesleyraimundo/)
 
-Check out my portfolio to see some of my past work and current projects.
-
-## Contact
-
-Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/kesleyraimundo/) or [GitHub](https://github.com/Kefsner). You can also email me at kesleyraimundo@gmail.com.
+This profile is a window into my professional journey and interests. Feel free to explore my repositories to see what I'm currently working on.
